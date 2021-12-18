@@ -304,7 +304,7 @@ figure{
 @media screen and (max-width: 425px) {
 
     .nav-link ul a{
-        font-size: 16px;
+        font-size: 14px;
         padding: 4px;
     }
     
