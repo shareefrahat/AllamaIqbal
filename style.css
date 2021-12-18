@@ -68,7 +68,6 @@ a{
 .nav-link {
     font-family:'Times New Roman';
     font-weight: bold;
-    font-size: 20px;
     text-align: center;
 }
 
@@ -83,6 +82,7 @@ a{
 .nav-link ul a{
     color: ghostwhite;
     text-decoration:none;
+    font-size: 20px;
     padding: 8px;
 }
 
@@ -239,10 +239,10 @@ figure{
 }
 
 
-/* -------------------------Mobile Screen---------------------*/
+/*---------------------------------TABLET------------------------------------*/
 
 
-@media screen and (max-width: 914px) {
+@media screen and (max-width: 768px) {
     .container {
         grid-template-areas: 
         "h h h h h h h h h h h h"
@@ -294,17 +294,23 @@ figure{
         }
 }
 
-@media screen and (max-width: 668px) {
 
-    #hide-ref {
-        display: none;
-    }
 
-}
+
+/*---------------------------------MOBILE------------------------------------*/
 
 
 
 @media screen and (max-width: 425px) {
+
+    .nav-link ul a{
+        font-size: 16px;
+        padding: 4px;
+    }
+    
+    .nav-link ul a:hover{
+        padding: 4px;
+    }
 
     .gallery-img {
         display: grid;
@@ -312,6 +318,12 @@ figure{
         grid-template-rows: auto;
         font-size: 16px;
         justify-content: center;
-    
+
+         }
+
+        #hide-ref {
+            display: none;
+        }
+
 }
 
