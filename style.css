@@ -66,7 +66,7 @@ a{
 }
 
 .nav-link {
-    font-family:cursive;
+    font-family:'Times New Roman';
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -217,7 +217,7 @@ figure{
     padding: 4px;
     border-radius: 4px;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 0.1px 3px -0.5px black;
 }
 /* -------------------------FOOTER-----------------------------*/
 
@@ -229,14 +229,13 @@ figure{
     font-size: 18px;
     text-align: center;
     padding: 8px;
-    font-family:cursive;
+    font-family:'Times New Roman';
 
 }
 
 .footer a{
     text-decoration: none;
     color: ghostwhite
-    
 }
 
 
@@ -253,13 +252,17 @@ figure{
         "f f f f f f f f f f f f";
     }
 
+    .header p{
+        font-size: small;
+    }
+
     .nav-link ul{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
         line-height: 50px;
-        font-size: 15px;
+        font-size: 16px;
         padding: 0px 20px;
     }
 
@@ -273,7 +276,7 @@ figure{
         border-radius: 0px;
         
     }
-
+   
     .content {
         grid-area: c;
         width: auto;
@@ -290,3 +293,25 @@ figure{
 
         }
 }
+
+@media screen and (max-width: 668px) {
+
+    #hide-ref {
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width: 425px) {
+
+    .gallery-img {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        font-size: 16px;
+        justify-content: center;
+    
+}
+
