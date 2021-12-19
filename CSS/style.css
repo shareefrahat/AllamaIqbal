@@ -1,6 +1,10 @@
 
 /* -------------------------UNIVERSAR-----------------------------*/
 
+body {
+    margin: 0;
+}
+
 ::marker {
     color:teal;
     font-weight: bold;
@@ -235,7 +239,7 @@ figure{
 
 .footer a{
     text-decoration: none;
-    color: ghostwhite
+    color: moccasin;
 }
 
 
@@ -304,7 +308,7 @@ figure{
 @media screen and (max-width: 425px) {
 
     .nav-link ul a{
-        font-size: 14px;
+        font-size: 16px;
         padding: 4px;
     }
     
@@ -323,6 +327,10 @@ figure{
 
         #hide-ref {
             display: none;
+        }
+
+        .footer-content {
+            font-size: 16px;
         }
 
 }
