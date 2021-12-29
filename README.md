@@ -5,4 +5,4 @@
 
 ##### -CSS3
 
-<h3> <a href="https://shareefrahat.github.io/AllamaIqbal/" target="_blank">Live Preview</a> </h3>
+<h3> <a href="https://allamaiqbal.netlify.app" target="_blank">Live Preview</a> </h3>
